@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import arrowLeft from '../../public/home/gallery/Group51.png'
-import arrowRight from '../../public/home/gallery/Group50.png'
+import arrowLeft from '../../public/home/gallery/Group46.png'
+import arrowRight from '../../public/home/gallery/Group45.png'
 
 const templateTypes = [
   {
@@ -95,10 +95,10 @@ const Gallery = () => {
   const slider = useRef(null);
 
   return (
-    <div className="spaceall bg-black">
+    <div className="spaceall ">
       <div className="container">
         <div className="headerstriplit">
-          <h3 className="head3 text-white mb-4">Gallery</h3>
+          <h3 className="head3 text-black mb-4">Gallery</h3>
           <div className='zoneboxanchors'>
             <div className="arrows-slickgapitems slider-nav">
               <a onClick={() => slider?.current?.slickPrev()} className='news-slickPrev'>
