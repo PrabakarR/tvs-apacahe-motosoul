@@ -5,6 +5,7 @@ import Header from './components/header/Header'
 import Herobanner from './components/Herobanner'
 import Gallery from './components/Gallery'
 import Footer from './components/footer/Footer'
+import Contact from './components/Contact'
 
 const dmsans = DM_Sans({   weight: ['400','500', '700'],  style: ['normal', 'italic'],subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Header />
         <Herobanner />
         <Gallery />
+        <Contact />
         <Footer />
       </main>
 
