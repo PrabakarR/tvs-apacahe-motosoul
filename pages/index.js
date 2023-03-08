@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { DM_Sans } from 'next/font/google'
 
-import Header from '../pages/components/header/Header'
+import Header from './components/header/Header'
 import Herobanner from './components/Herobanner'
 import Gallery from './components/Gallery'
 
