@@ -4,8 +4,9 @@ import { DM_Sans } from 'next/font/google'
 import Header from './components/header/Header'
 import Herobanner from './components/Herobanner'
 import Gallery from './components/Gallery'
+import Footer from './components/footer/Footer'
 
-const dmsans = DM_Sans({   weight: '400',  weight: '600',  weight: '700',subsets: ['latin'] })
+const dmsans = DM_Sans({   weight: ['400','500', '700'],  style: ['normal', 'italic'],subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Header />
         <Herobanner />
         <Gallery />
+        <Footer />
       </main>
 
     </>
