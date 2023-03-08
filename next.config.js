@@ -6,9 +6,7 @@ const nextConfig = {
     path: '/',
     unoptimized: true,
   },
-  resolve: {
-    extensions: ['.js', '.jsx', '.tsx']
-}
+  
 }
 
 module.exports = nextConfig
