@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { DM_Sans } from 'next/font/google'
 
 import Header from './components/header/Header'
 import Herobanner from './components/Herobanner'
@@ -7,7 +6,6 @@ import Gallery from './components/Gallery'
 import Footer from './components/footer/Footer'
 import Contact from './components/Contact'
 
-const dmsans = DM_Sans({   weight: ['400','500', '700'],  style: ['normal', 'italic'],subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -18,13 +16,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={dmsans.className}>
+      
         <Header />
         <Herobanner />
         <Gallery />
         <Contact />
         <Footer />
-      </main>
+   
 
     </>
   )
